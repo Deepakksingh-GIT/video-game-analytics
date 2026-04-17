@@ -73,15 +73,16 @@ video-game-analytics/
 ## Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](screenshots/dashboard_overview.png)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2381313e-8cec-4dfa-9939-3ee054d5b4e8" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/10e89f2f-11ef-42d1-b1fc-efcc1b11d3c2" />
+
 
 ### EDA Visualizations
-![EDA Plots](screenshots/eda_plots.png)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fe7caf97-4cd0-4bba-a13f-5eaf1db55572" />
 
 ### Sales Prediction
-![Prediction Section](screenshots/prediction.png)
-
-*Note: Screenshots are captured from the live Streamlit app. To update, take new screenshots and place them in a `screenshots/` folder.*
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a102bf70-c4f7-43b4-b8f5-f22f1e01dc8e" />
 
 ## Technologies Used
 
