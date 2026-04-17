@@ -1,14 +1,134 @@
-# Video Game Analytics Dashboard
+# 🎮 Video Game Sales and Engagement Analysis
 
-A comprehensive data analytics project for video game sales and ratings, featuring data cleaning, exploratory data analysis (EDA), machine learning prediction, and an interactive web dashboard.
+## 📌 Project Overview
 
-## Features
+This project focuses on analyzing video game sales and user engagement data to uncover trends in game popularity, platform performance, and user behavior. By combining sales data with engagement metrics such as ratings, wishlist, and play counts, the project provides actionable insights for game developers, publishers, and marketers.
 
-- **Data Cleaning & Merging**: Processes raw game and sales data, handles missing values, and standardizes formats.
-- **Exploratory Data Analysis (EDA)**: Generates visualizations for top genres and correlations.
-- **Machine Learning Model**: Trains a RandomForest regressor to predict global sales based on rating and wishlist count.
-- **Database Integration**: Stores cleaned data in SQLite for querying.
-- **Interactive Dashboard**: Built with Streamlit, includes EDA plots, data exploration, and sales prediction.
+---
+
+## 🎯 Problem Statement
+
+The goal of this project is to analyze and visualize video game sales and engagement data to understand how different factors such as genre, platform, ratings, and user behavior influence game success. The project also aims to support decision-making for marketing strategies, product development, and sales forecasting.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+* **SQL** (Database design and querying)
+* **Streamlit / Power BI** (Interactive dashboards)
+* **Scikit-learn** (Machine Learning - Sales Prediction)
+
+---
+
+## 📂 Dataset Description
+
+### 1. Games Dataset (games.csv)
+
+* Title – Game name
+* Rating – User review score
+* Genres – Game categories
+* Plays – Number of playthroughs
+* Backlogs – Planned plays
+* Wishlist – Number of wishlists
+* Release Date, Platform, Team
+
+### 2. Sales Dataset (vgsales.csv)
+
+* Name – Game name
+* Platform – Console/device
+* Year – Release year
+* Genre – Category
+* Publisher – Game publisher
+* Regional Sales – NA, EU, JP, Others
+* Global_Sales – Total sales
+
+---
+
+## ⚙️ Project Workflow
+
+### 1. Data Cleaning
+
+* Removed duplicate records
+* Handled missing values using statistical methods
+* Standardized categorical values (genre, platform, publisher)
+* Merged datasets based on game titles
+
+### 2. SQL Database Design
+
+* Created structured tables for games and sales data
+* Applied normalization techniques
+* Used primary and foreign keys to maintain data integrity
+
+### 3. Exploratory Data Analysis (EDA)
+
+* Analyzed trends in ratings, wishlist, and sales
+* Identified popular genres and platforms
+* Studied regional sales distribution
+* Examined relationships between engagement and sales
+
+### 4. Data Visualization
+
+* Bar charts for genre/platform comparison
+* Line charts for sales trends over time
+* Heatmaps for correlation analysis
+* Scatter plots for rating vs sales
+
+### 5. Machine Learning (Advanced Enhancement)
+
+* Built a regression model to predict global sales
+* Used features like rating and wishlist
+* Evaluated model performance using standard metrics
+
+---
+
+## 📊 Key Insights
+
+* 🎮 Action and Sports genres generate the highest global sales
+* 🌍 North America contributes the largest share of sales
+* ⭐ High ratings do not always guarantee high sales
+* 📌 Wishlist indicates user interest but does not always convert into revenue
+* 🕹️ Platform plays a crucial role in game success
+
+---
+
+## 💡 Business Recommendations
+
+* Focus development on high-performing genres like Action and Sports
+* Target North American market for higher revenue potential
+* Improve game quality and ratings to boost engagement
+* Use wishlist data for demand forecasting
+* Optimize platform selection based on genre performance
+
+---
+
+## 🤖 Machine Learning Model
+
+* Model Used: Random Forest Regressor
+* Objective: Predict global sales of video games
+* Features: Rating, Wishlist
+* Outcome: Helps estimate expected sales before game launch
+
+---
+
+## 📈 Dashboard Features
+
+* Interactive filters (Genre, Platform, Year)
+* KPI indicators (Total Sales, Avg Rating)
+* Trend analysis over time
+* Comparison across regions and genres
+* Real-time sales prediction (Streamlit)
+
+---
+
+## 🚀 Future Improvements
+
+* Add recommendation system for games
+* Integrate real-time data sources
+* Improve model accuracy with more features
+* Deploy using cloud platforms (AWS/Render)
+
+---
 
 ## Project Structure
 
@@ -98,9 +218,20 @@ video-game-analytics/
 - Games data: Hypothetical or sourced from gaming APIs (e.g., IGDB, RAWG).
 - Sales data: Based on VGChartz dataset (public domain).
 
-## Contributing
+---
 
-Feel free to fork and contribute improvements!
+## 📎 Conclusion
+
+This project demonstrates the complete data analysis pipeline from data cleaning and database design to visualization and predictive modeling. It provides valuable insights into the gaming industry and supports data-driven decision-making.
+
+---
+
+## 👨‍💻 Author
+
+**Deepak Kumar Singh**
+Aspiring Data Scientist
+
+---
 
 ## License
 
